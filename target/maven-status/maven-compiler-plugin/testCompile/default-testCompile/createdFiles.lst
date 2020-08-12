@@ -1,0 +1,4 @@
+com\jxq\douban\data\Mysql.class
+com\jxq\douban\api_test\SearchMusicTest.class
+com\jxq\douban\api_test\SearchTagsTest.class
+com\jxq\douban\api_test\TranslateTest.class

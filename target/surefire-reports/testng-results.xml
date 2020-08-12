@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="19" passed="12" failed="5" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> END GET]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (379ms)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:12 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Xss-Protection: 1; mode=block]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Douban-Mobileapp: 0]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=-Aw9Lk574Zo; Expires=Thu, 12-Aug-21 01:49:12 GMT; Domain=.douban.com; Path=/]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: -Aw9Lk574Zo]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-Instance: default]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Server: dae]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Content-Type-Options: nosniff]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> ]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- END HTTP (94-byte body)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> END GET]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (45ms)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Xss-Protection: 1; mode=block]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Douban-Mobileapp: 0]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=YWZWPhSEj8k; Expires=Thu, 12-Aug-21 01:49:13 GMT; Domain=.douban.com; Path=/]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: YWZWPhSEj8k]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-Instance: default]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Server: dae]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Content-Type-Options: nosniff]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> ]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- END HTTP (94-byte body)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> GET https://api.douban.com/v2/music/search?q=travel%20light&start=1&count=1]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> END GET]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- 200 OK https://api.douban.com/v2/music/search?q=travel%20light&start=1&count=1 (303ms)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Vary: Accept-Encoding]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Vary: Accept-Encoding]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Ratelimit-Remaining2: 97]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Ratelimit-Limit2: 100]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Set-Cookie: bid=raCuHT4oGc4; Expires=Thu, 12-Aug-21 01:49:13 GMT; Domain=.douban.com; Path=/]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: raCuHT4oGc4]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-App: music]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-Instance: api]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-DAE-Mountpoint: True]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Server: dae]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> X-Frame-Options: SAMEORIGIN]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> ]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> {"count":1,"start":1,"total":10,"musics":[{"rating":{"max":10,"average":"7.7","numRaters":16,"min":0},"author":[{"name":"Children of Zeus"}],"alt_title":"","image":"https://img9.doubanio.com\/view\/subject\/s\/public\/s29817456.jpg","tags":[{"count":4,"name":"Neo-Soul"},{"count":4,"name":"2018"},{"count":3,"name":"R&B"},{"count":3,"name":"Hip-Hop"},{"count":1,"name":"r&b"},{"count":1,"name":"Rap"},{"count":1,"name":"Hip-Hop\/Rap"},{"count":1,"name":"ChildrenOfZeus"}],"mobile_link":"https:\/\/m.douban.com\/music\/subject\/30272340\/","attrs":{"publisher":["First Word Records"],"singer":["Children of Zeus"],"pubdate":["2018-07-13"],"title":["Travel Light"],"media":["Audio CD"],"tracks":["The Story So Far...","All On You (Feat. [ K S R ] & DRS)","360°","Slow Down","Hoodman2Manhood","Kintsugi","The Heart Beat","Fear of a Flat Planet (Feat. LayFullStop)","Hard Work","Sling Shot Riddim (Feat. Terri Walker)","Respect Mine","Daddy's Car","Vibrations (Divine Signature)","Still Standing","Smoke With Me","Crown","Don't Say a Word","I Can't Wait","No Strings Attached","No Sunshine Tomorrow","Push On","Elevate","Happiness","Rock You Internally","I Want You"],"discs":["2"]},"title":"Travel Light","alt":"https:\/\/music.douban.com\/subject\/30272340\/","id":"30272340"}]}]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- END HTTP (1277-byte body)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> POST http://fanyi.youdao.com/translate?doctype=json&jsonversion=&type=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=&abtest=]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Type: application/x-www-form-urlencoded]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Length: 6]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> ]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> i=good]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> --> END POST (6-byte body)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- 200 OK http://fanyi.youdao.com/translate?doctype=json&jsonversion=&type=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=&abtest= (107ms)]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Server: nginx]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Type: application/json;charset=utf-8]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Vary: Accept-Encoding]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Content-Language: en-US]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> Set-Cookie: OUTFOX_SEARCH_USER_ID=560963617@183.64.61.35; domain=.youdao.com; expires=Fri, 05-Aug-2050 01:49:13 GMT]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> ]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog-->                           {"type":"EN2ZH_CN","errorCode":0,"elapsedTime":1,"translateResult":[[{"src":"good","tgt":"好"}]]}
+]]>
+    </line>
+    <line>
+      <![CDATA[RetrofitLog--> <-- END HTTP (125-byte body)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-08-12T01:48:32Z" name="测试豆瓣登录功能" finished-at="2020-08-12T01:48:53Z" duration-ms="21084">
+    <groups>
+    </groups>
+    <test started-at="2020-08-12T01:48:32Z" name="登录 功能" finished-at="2020-08-12T01:48:53Z" duration-ms="21084">
+      <class name="com.jxq.douban.function_test.VarifyLoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jxq.douban.function_test.VarifyLoginTest@34519401]" started-at="2020-08-12T01:48:27Z" name="beforeSuite" description="打开一次浏览器后可批量执行测试用例套件" finished-at="2020-08-12T01:48:32Z" duration-ms="5153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="testLogin_noNUll(java.util.Map)[pri:0, instance:com.jxq.douban.function_test.VarifyLoginTest@34519401]" started-at="2020-08-12T01:48:32Z" name="testLogin_noNUll" description="username, passWord" data-provider="mysqlMethod" finished-at="2020-08-12T01:48:44Z" duration-ms="11865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=18883992836, passWord=water, remark=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin_noNUll -->
+        <test-method signature="testLogin_noNUll(java.util.Map)[pri:0, instance:com.jxq.douban.function_test.VarifyLoginTest@34519401]" started-at="2020-08-12T01:48:44Z" name="testLogin_noNUll" description="username, passWord" data-provider="mysqlMethod" finished-at="2020-08-12T01:48:51Z" duration-ms="6747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{username=18883992836, passWord=water.222, remark=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin_noNUll -->
+        <test-method signature="testLogin_null()[pri:1, instance:com.jxq.douban.function_test.VarifyLoginTest@34519401]" started-at="2020-08-12T01:48:51Z" name="testLogin_null" description="什么都不输入" finished-at="2020-08-12T01:48:53Z" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin_null -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jxq.douban.function_test.VarifyLoginTest@34519401]" started-at="2020-08-12T01:48:53Z" name="afterSuite" finished-at="2020-08-12T01:48:53Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.jxq.douban.function_test.VarifyLoginTest -->
+    </test> <!-- 登录 功能 -->
+  </suite> <!-- 测试豆瓣登录功能 -->
+  <suite started-at="2020-08-12T01:49:13Z" name="有道翻译-测试集合" finished-at="2020-08-12T01:49:13Z" duration-ms="136">
+    <groups>
+    </groups>
+    <test started-at="2020-08-12T01:49:13Z" name="有道翻译 接口" finished-at="2020-08-12T01:49:13Z" duration-ms="136">
+      <class name="com.jxq.douban.api_test.TranslateTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jxq.douban.api_test.TranslateTest@41d3c3df]" started-at="2020-08-12T01:49:13Z" name="beforeSuite" finished-at="2020-08-12T01:49:13Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="testcase1()[pri:0, instance:com.jxq.douban.api_test.TranslateTest@41d3c3df]" started-at="2020-08-12T01:49:13Z" name="testcase1" description="有道翻译。类别:src=good" finished-at="2020-08-12T01:49:13Z" duration-ms="132" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[RetrofitLog--> --> POST http://fanyi.youdao.com/translate?doctype=json&jsonversion=&type=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=&abtest=]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Type: application/x-www-form-urlencoded]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Length: 6]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> ]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> i=good]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> --> END POST (6-byte body)]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- 200 OK http://fanyi.youdao.com/translate?doctype=json&jsonversion=&type=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=&abtest= (107ms)]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Server: nginx]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Type: application/json;charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Vary: Accept-Encoding]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Language: en-US]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Set-Cookie: OUTFOX_SEARCH_USER_ID=560963617@183.64.61.35; domain=.youdao.com; expires=Fri, 05-Aug-2050 01:49:13 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> ]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog-->                           {"type":"EN2ZH_CN","errorCode":0,"elapsedTime":1,"translateResult":[[{"src":"good","tgt":"好"}]]}
+]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- END HTTP (125-byte body)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- com.jxq.douban.api_test.TranslateTest -->
+    </test> <!-- 有道翻译 接口 -->
+  </suite> <!-- 有道翻译-测试集合 -->
+  <suite started-at="2020-08-12T01:49:12Z" name="搜索豆瓣开放接口的电影" finished-at="2020-08-12T01:49:13Z" duration-ms="324">
+    <groups>
+    </groups>
+    <test started-at="2020-08-12T01:49:12Z" name="搜索分类 接口" finished-at="2020-08-12T01:49:13Z" duration-ms="324">
+      <class name="com.jxq.douban.api_test.SearchMusicTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jxq.douban.api_test.SearchMusicTest@7623e5fb]" started-at="2020-08-12T01:49:12Z" name="beforeSuite" finished-at="2020-08-12T01:49:12Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="testcase1()[pri:0, instance:com.jxq.douban.api_test.SearchMusicTest@7623e5fb]" started-at="2020-08-12T01:49:12Z" name="testcase1" description="豆瓣音乐。类别:q=travel light start=1 count=1" finished-at="2020-08-12T01:49:13Z" duration-ms="320" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[RetrofitLog--> --> GET https://api.douban.com/v2/music/search?q=travel%20light&start=1&count=1]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> --> END GET]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://api.douban.com/v2/music/search?q=travel%20light&start=1&count=1 (303ms)]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Vary: Accept-Encoding]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Vary: Accept-Encoding]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Ratelimit-Remaining2: 97]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Ratelimit-Limit2: 100]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=raCuHT4oGc4; Expires=Thu, 12-Aug-21 01:49:13 GMT; Domain=.douban.com; Path=/]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: raCuHT4oGc4]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-App: music]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-Instance: api]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-Mountpoint: True]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Server: dae]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Frame-Options: SAMEORIGIN]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> ]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> {"count":1,"start":1,"total":10,"musics":[{"rating":{"max":10,"average":"7.7","numRaters":16,"min":0},"author":[{"name":"Children of Zeus"}],"alt_title":"","image":"https://img9.doubanio.com\/view\/subject\/s\/public\/s29817456.jpg","tags":[{"count":4,"name":"Neo-Soul"},{"count":4,"name":"2018"},{"count":3,"name":"R&B"},{"count":3,"name":"Hip-Hop"},{"count":1,"name":"r&b"},{"count":1,"name":"Rap"},{"count":1,"name":"Hip-Hop\/Rap"},{"count":1,"name":"ChildrenOfZeus"}],"mobile_link":"https:\/\/m.douban.com\/music\/subject\/30272340\/","attrs":{"publisher":["First Word Records"],"singer":["Children of Zeus"],"pubdate":["2018-07-13"],"title":["Travel Light"],"media":["Audio CD"],"tracks":["The Story So Far...","All On You (Feat. [ K S R ] & DRS)","360°","Slow Down","Hoodman2Manhood","Kintsugi","The Heart Beat","Fear of a Flat Planet (Feat. LayFullStop)","Hard Work","Sling Shot Riddim (Feat. Terri Walker)","Respect Mine","Daddy's Car","Vibrations (Divine Signature)","Still Standing","Smoke With Me","Crown","Don't Say a Word","I Can't Wait","No Strings Attached","No Sunshine Tomorrow","Push On","Elevate","Happiness","Rock You Internally","I Want You"],"discs":["2"]},"title":"Travel Light","alt":"https:\/\/music.douban.com\/subject\/30272340\/","id":"30272340"}]}]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- END HTTP (1277-byte body)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- com.jxq.douban.api_test.SearchMusicTest -->
+    </test> <!-- 搜索分类 接口 -->
+  </suite> <!-- 搜索豆瓣开放接口的电影 -->
+  <suite started-at="2020-08-12T01:49:30Z" name="接口测试集合" finished-at="2020-08-12T01:49:30Z" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- 接口测试集合 -->
+  <suite started-at="2020-08-12T01:49:11Z" name="search_tags-搜索分类-测试集合" finished-at="2020-08-12T01:49:12Z" duration-ms="1184">
+    <groups>
+    </groups>
+    <test started-at="2020-08-12T01:49:11Z" name="搜索分类 接口" finished-at="2020-08-12T01:49:12Z" duration-ms="1184">
+      <class name="com.jxq.douban.api_test.SearchTagsTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jxq.douban.api_test.SearchTagsTest@3e80d96a]" started-at="2020-08-12T01:49:11Z" name="beforeSuite" finished-at="2020-08-12T01:49:11Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="testcase1()[pri:0, instance:com.jxq.douban.api_test.SearchTagsTest@3e80d96a]" started-at="2020-08-12T01:49:11Z" name="testcase1" description="电影首页。类别:type=movie source=index" finished-at="2020-08-12T01:49:12Z" duration-ms="1109" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> --> END GET]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (379ms)]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:12 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Xss-Protection: 1; mode=block]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Douban-Mobileapp: 0]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=-Aw9Lk574Zo; Expires=Thu, 12-Aug-21 01:49:12 GMT; Domain=.douban.com; Path=/]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: -Aw9Lk574Zo]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-Instance: default]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Server: dae]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Content-Type-Options: nosniff]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> ]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- END HTTP (94-byte body)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:0, instance:com.jxq.douban.api_test.SearchTagsTest@3e80d96a]" started-at="2020-08-12T01:49:12Z" name="testcase2" description="Tv首页。类别:type=tv source=index" finished-at="2020-08-12T01:49:12Z" duration-ms="61" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> --> END GET]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (45ms)]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Content-Type: application/json; charset=utf-8]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Transfer-Encoding: chunked]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Connection: keep-alive]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Keep-Alive: timeout=30]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Xss-Protection: 1; mode=block]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Douban-Mobileapp: 0]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Pragma: no-cache]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Cache-Control: must-revalidate, no-cache, private]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Set-Cookie: bid=YWZWPhSEj8k; Expires=Thu, 12-Aug-21 01:49:13 GMT; Domain=.douban.com; Path=/]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DOUBAN-NEWBID: YWZWPhSEj8k]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-App: movie]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-DAE-Instance: default]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> Server: dae]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> X-Content-Type-Options: nosniff]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> ]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}]]>
+            </line>
+            <line>
+              <![CDATA[RetrofitLog--> <-- END HTTP (94-byte body)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- com.jxq.douban.api_test.SearchTagsTest -->
+    </test> <!-- 搜索分类 接口 -->
+  </suite> <!-- search_tags-搜索分类-测试集合 -->
+  <suite started-at="2020-08-12T01:49:30Z" name="功能测试集合" finished-at="2020-08-12T01:49:30Z" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- 功能测试集合 -->
+  <suite started-at="2020-08-12T01:48:57Z" name="测试我的豆瓣中的增删查改功能" finished-at="2020-08-12T01:49:11Z" duration-ms="14090">
+    <groups>
+    </groups>
+    <test started-at="2020-08-12T01:48:57Z" name="增删查改 功能" finished-at="2020-08-12T01:49:11Z" duration-ms="14090">
+      <class name="com.jxq.douban.function_test.VarifyCommentBasicFunTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jxq.douban.function_test.VarifyCommentBasicFunTest@27b11231]" started-at="2020-08-12T01:48:53Z" name="beforeSuite" description="打开一次浏览器后可批量执行测试用例套件" finished-at="2020-08-12T01:48:57Z" duration-ms="3467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="addNotesTest()[pri:0, instance:com.jxq.douban.function_test.VarifyCommentBasicFunTest@27b11231]" started-at="2020-08-12T01:48:57Z" name="addNotesTest" description="成功登录到豆瓣中，并发表第一条动态" finished-at="2020-08-12T01:49:10Z" duration-ms="12890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNotesTest -->
+        <test-method signature="removeNotesTest()[pri:0, instance:com.jxq.douban.function_test.VarifyCommentBasicFunTest@27b11231]" started-at="2020-08-12T01:49:10Z" name="removeNotesTest" description="依赖于上一个方法，删除最新的动态，同时必须保证成功删除以后豆瓣中至少还有两条动态。" finished-at="2020-08-12T01:49:11Z" depends-on-methods="com.jxq.douban.function_test.VarifyCommentBasicFunTest.addNotesTest" duration-ms="1193" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.assertNotEquals(Assert.java:1157)
+at org.testng.Assert.assertNotEquals(Assert.java:1162)
+at com.jxq.douban.function_test.page.common.Comments.deleteComment(Comments.java:53)
+at com.jxq.douban.function_test.VarifyCommentBasicFunTest.removeNotesTest(VarifyCommentBasicFunTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:206)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1022)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:868)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+at hudson.remoting.Request$2.run(Request.java:369)
+at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeNotesTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jxq.douban.function_test.VarifyCommentBasicFunTest@27b11231]" started-at="2020-08-12T01:49:11Z" name="afterSuite" finished-at="2020-08-12T01:49:11Z" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.jxq.douban.function_test.VarifyCommentBasicFunTest -->
+    </test> <!-- 增删查改 功能 -->
+  </suite> <!-- 测试我的豆瓣中的增删查改功能 -->
+  <suite started-at="2020-08-12T01:49:16Z" name="测试重复性操作系统是否正常工作" finished-at="2020-08-12T01:49:26Z" duration-ms="9454">
+    <groups>
+    </groups>
+    <test started-at="2020-08-12T01:49:16Z" name="重复性操作" finished-at="2020-08-12T01:49:26Z" duration-ms="9454">
+      <class name="com.jxq.douban.press_test.RepeatedClickLoginBtnTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:13Z" name="beforeSuite" description="打开一次浏览器后可批量执行测试用例套件" finished-at="2020-08-12T01:49:16Z" duration-ms="3436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="testlogin()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:16Z" name="testlogin" description="首先进入登录界面并填写正确的账户密码——多次点击登录按钮" finished-at="2020-08-12T01:49:25Z" duration-ms="8440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method signature="testRepeatedClick()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:25Z" name="testRepeatedClick" description="多次点击登录按钮，是否能成功登录" finished-at="2020-08-12T01:49:25Z" depends-on-methods="com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testlogin" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeatedClick -->
+        <test-method signature="testRepeatedClick()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:25Z" name="testRepeatedClick" description="多次点击登录按钮，是否能成功登录" finished-at="2020-08-12T01:49:25Z" depends-on-methods="com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testlogin" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeatedClick -->
+        <test-method signature="testRepeatedClick()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:25Z" name="testRepeatedClick" description="多次点击登录按钮，是否能成功登录" finished-at="2020-08-12T01:49:25Z" depends-on-methods="com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testlogin" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeatedClick -->
+        <test-method signature="testRepeatedClick()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:25Z" name="testRepeatedClick" description="多次点击登录按钮，是否能成功登录" finished-at="2020-08-12T01:49:26Z" depends-on-methods="com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testlogin" duration-ms="778" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.jxq.douban.function_test.page.common.LoginDouban_co.clickLoginButton(LoginDouban_co.java:43)
+at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:586)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeatedClick -->
+        <test-method signature="testRepeatedClick()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:25Z" name="testRepeatedClick" description="多次点击登录按钮，是否能成功登录" finished-at="2020-08-12T01:49:27Z" depends-on-methods="com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testlogin" duration-ms="1664" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.jxq.douban.function_test.page.common.LoginDouban_co.clickLoginButton(LoginDouban_co.java:43)
+at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:586)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeatedClick -->
+        <test-method signature="testRepeatedClick()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:25Z" name="testRepeatedClick" description="多次点击登录按钮，是否能成功登录" finished-at="2020-08-12T01:49:27Z" depends-on-methods="com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testlogin" duration-ms="1607" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at com.jxq.douban.function_test.page.common.LoginDouban_co.clickLoginButton(LoginDouban_co.java:43)
+at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:278)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:265)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:586)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRepeatedClick -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jxq.douban.press_test.RepeatedClickLoginBtnTest@59fed69d]" started-at="2020-08-12T01:49:26Z" name="afterSuite" finished-at="2020-08-12T01:49:29Z" duration-ms="3747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.jxq.douban.press_test.RepeatedSumitTest@50c810a1]" started-at="2020-08-12T01:49:29Z" name="afterSuite" finished-at="2020-08-12T01:49:29Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.jxq.douban.function_test.page.common.LoginDouban_co.varifyIsLoginSuccess(LoginDouban_co.java:64)
+at com.jxq.douban.press_test.RepeatedSumitTest.afterSuite(RepeatedSumitTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:455)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:425)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:206)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1022)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:868)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+at hudson.remoting.Request$2.run(Request.java:369)
+at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.jxq.douban.press_test.RepeatedClickLoginBtnTest -->
+      <class name="com.jxq.douban.press_test.RepeatedSumitTest">
+        <test-method signature="testlogin()[pri:0, instance:com.jxq.douban.press_test.RepeatedSumitTest@50c810a1]" started-at="2020-08-12T01:49:26Z" name="testlogin" description="首先成功登录到豆瓣中——多次刷新浏览器" finished-at="2020-08-12T01:49:26Z" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.jxq.douban.function_test.page.common.LoginDouban_co.goToLoginPage(LoginDouban_co.java:22)
+at com.jxq.douban.press_test.RepeatedSumitTest.testlogin(RepeatedSumitTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:206)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1022)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:868)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+at hudson.remoting.Request$2.run(Request.java:369)
+at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method signature="testRefreshPage()[pri:0, instance:com.jxq.douban.press_test.RepeatedSumitTest@50c810a1]" started-at="2020-08-12T01:49:26Z" name="testRefreshPage" description="多次刷新页面重复提交表单" finished-at="2020-08-12T01:49:26Z" depends-on-methods="com.jxq.douban.press_test.RepeatedSumitTest.testlogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RepeatedSumitTest.testRefreshPage()[pri:0, instance:com.jxq.douban.press_test.RepeatedSumitTest@50c810a1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RepeatedSumitTest.testRefreshPage()[pri:0, instance:com.jxq.douban.press_test.RepeatedSumitTest@50c810a1] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:206)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:161)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:84)
+at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1022)
+at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:868)
+at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+at hudson.remoting.Request$2.run(Request.java:369)
+at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRefreshPage -->
+      </class> <!-- com.jxq.douban.press_test.RepeatedSumitTest -->
+    </test> <!-- 重复性操作 -->
+  </suite> <!-- 测试重复性操作系统是否正常工作 -->
+</testng-results>

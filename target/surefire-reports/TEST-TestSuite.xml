@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="64.997" tests="19" errors="0" skipped="1" failures="6">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/jenkins/job/MyTestFrame/8/display/redirect"/>
+    <property name="HUDSON_HOME" value="C:\Users\boom\.jenkins"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="_RUNJAVA" value="&quot;F:\jdk\bin\java.exe&quot;"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/jenkins/job/MyTestFrame/8/display/redirect?page=changes"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="JSSE_OPTS" value="-Djdk.tls.ephemeralDHKeySize=2048"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="ENDORSED_PROP" value="ignore.endorsed.dirs"/>
+    <property name="JRE_HOME" value="F:\jdk"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="MOZ_PLUGIN_PATH" value="C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\"/>
+    <property name="JENKINS_SERVER_COOKIE" value="ae966fde28e3c24b"/>
+    <property name="USERNAME" value="boom"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="sun.boot.library.path" value="F:\jdk\bin"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3 H:\apache-tomcat-8.5.57\webapps\jenkins\WEB-INF\lib\remoting-4.3.jar C:\Users\boom\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\boom\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 4592"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="maven.home" value="F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="POM_GROUPID" value="TestHub"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="F:\jdk"/>
+    <property name="JENKINS_HOME" value="C:\Users\boom\.jenkins"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="H:\2020最重要的事\MyTestFrame"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="_RUNJDB" value="&quot;F:\jdk\bin\jdb.exe&quot;"/>
+    <property name="HOMEPATH" value="\Users\boom"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#8"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 69 Stepping 1, GenuineIntel"/>
+    <property name="maven3.interceptor" value="C:\Users\boom\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="PATH+MAVEN" value="F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin"/>
+    <property name="maven3.interceptor.common" value="C:\Users\boom\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=::" value="::\"/>
+    <property name="WORKSPACE_TMP" value="H:\2020最重要的事\MyTestFrame@tmp"/>
+    <property name="user.script" value=""/>
+    <property name="EXECUTABLE" value="H:\apache-tomcat-8.5.57\bin\catalina.bat"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="JAVA_HOME" value="F:\jdk"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.name" value="boom"/>
+    <property name="CATALINA_LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;H:\apache-tomcat-8.5.57\conf\logging.properties&quot;"/>
+    <property name="POM_ARTIFACTID" value="TestHub"/>
+    <property name="OneDrive" value="C:\Users\boom\OneDrive"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="APPDATA" value="C:\Users\boom\AppData\Roaming"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/jenkins/"/>
+    <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;F:\jdk\bin\java.exe&quot;"/>
+    <property name="WORKSPACE" value="H:\2020最重要的事\MyTestFrame"/>
+    <property name="localRepository" value="H:\maven\repo"/>
+    <property name="Path" value="F:\编程软件\Python36;F:\编程软件\Python36\Scripts"/>
+    <property name="java.io.tmpdir" value="C:\Users\boom\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="COMPUTERNAME" value="DESKTOP-UEJILMQ"/>
+    <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="JOB_BASE_NAME" value="MyTestFrame"/>
+    <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.library.path" value="F:\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin;F:\jdk/bin;F:\编程软件\Python36;F:\编程软件\Python36\Scripts;."/>
+    <property name="BUILD_NUMBER" value="8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_URL" value="http://localhost:8080/jenkins/job/MyTestFrame/8/"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="POM_DISPLAYNAME" value="TestHub"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-UEJILMQ"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\boom\AppData\Local\Google\Chrome\Application\chromedriver.exe"/>
+    <property name="JOB_URL" value="http://localhost:8080/jenkins/job/MyTestFrame/"/>
+    <property name="java.class.path" value="C:\Users\boom\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3/conf/logging"/>
+    <property name="JAVA_OPTS" value=" -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="user.variant" value=""/>
+    <property name="MAVEN_HOME" value="F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="maven.conf" value="F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="BUILD_TAG" value="jenkins-MyTestFrame-8"/>
+    <property name="surefire.test.class.path" value="H:\2020最重要的事\MyTestFrame\target\test-classes;H:\2020最重要的事\MyTestFrame\target\classes;H:\maven\repo\com\alibaba\fastjson\1.2.47\fastjson-1.2.47.jar;H:\maven\repo\com\googlecode\protobuf-java-format\protobuf-java-format\1.4\protobuf-java-format-1.4.jar;H:\maven\repo\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;H:\maven\repo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;H:\maven\repo\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;H:\maven\repo\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;H:\maven\repo\com\squareup\okhttp3\logging-interceptor\3.10.0\logging-interceptor-3.10.0.jar;H:\maven\repo\org\testng\testng\6.14.2\testng-6.14.2.jar;H:\maven\repo\com\beust\jcommander\1.72\jcommander-1.72.jar;H:\maven\repo\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;H:\maven\repo\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;H:\maven\repo\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;H:\maven\repo\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;H:\maven\repo\org\mongodb\bson\3.3.0\bson-3.3.0.jar;H:\maven\repo\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;H:\maven\repo\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;H:\maven\repo\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;H:\maven\repo\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;H:\maven\repo\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;H:\maven\repo\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;H:\maven\repo\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;H:\maven\repo\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;H:\maven\repo\com\squareup\retrofit2\retrofit\2.4.0\retrofit-2.4.0.jar;H:\maven\repo\com\squareup\retrofit2\converter-gson\2.3.0\converter-gson-2.3.0.jar;H:\maven\repo\log4j\log4j\1.2.17\log4j-1.2.17.jar;H:\maven\repo\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar;H:\maven\repo\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar;H:\maven\repo\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;H:\maven\repo\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;H:\maven\repo\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;H:\maven\repo\joda-time\joda-time\2.3\joda-time-2.3.jar;H:\maven\repo\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;H:\maven\repo\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;H:\maven\repo\com\github\fge\uri-template\0.9\uri-template-0.9.jar;H:\maven\repo\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;H:\maven\repo\com\github\fge\btf\1.2\btf-1.2.jar;H:\maven\repo\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;H:\maven\repo\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;H:\maven\repo\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;H:\maven\repo\javax\activation\activation\1.1\activation-1.1.jar;H:\maven\repo\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;H:\maven\repo\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;H:\maven\repo\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;H:\maven\repo\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;H:\maven\repo\com\google\guava\guava\23.0\guava-23.0.jar;H:\maven\repo\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;H:\maven\repo\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;H:\maven\repo\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;H:\maven\repo\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;H:\maven\repo\mysql\mysql-connector-java\8.0.11\mysql-connector-java-8.0.11.jar;H:\maven\repo\com\google\protobuf\protobuf-java\2.6.0\protobuf-java-2.6.0.jar;H:\maven\repo\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;H:\maven\repo\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\boom"/>
+    <property name="user.language" value="zh"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="=F:" value="F:\"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/jenkins/job/MyTestFrame/display/redirect"/>
+    <property name="M2_HOME" value="F:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
+    <property name="CURRENT_DIR" value="H:\apache-tomcat-8.5.57\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\boom\AppData\Local"/>
+    <property name="POM_PACKAGING" value="war"/>
+    <property name="CATALINA_TMPDIR" value="H:\apache-tomcat-8.5.57\temp"/>
+    <property name="USERDOMAIN" value="DESKTOP-UEJILMQ"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-UEJILMQ"/>
+    <property name="path.separator" value=";"/>
+    <property name="BUILD_ID" value="8"/>
+    <property name="os.version" value="10.0"/>
+    <property name="JOB_NAME" value="MyTestFrame"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="CATALINA_BASE" value="H:\apache-tomcat-8.5.57"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="PATH+JDK" value="F:\jdk/bin"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="user.dir" value="H:\2020最重要的事\MyTestFrame"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="HUDSON_SERVER_COOKIE" value="ae966fde28e3c24b"/>
+    <property name="CATALINA_HOME" value="H:\apache-tomcat-8.5.57"/>
+    <property name="JDK_JAVA_OPTIONS" value=" --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED"/>
+    <property name="PROCESSOR_REVISION" value="4501"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="=H:" value="H:\apache-tomcat-8.5.57\bin"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="TEMP" value="C:\Users\boom\AppData\Local\Temp"/>
+    <property name="ACTION" value="start"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="USERPROFILE" value="C:\Users\boom"/>
+    <property name="TMP" value="C:\Users\boom\AppData\Local\Temp"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="TITLE" value="Tomcat"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testLogin_noNUll" classname="com.jxq.douban.function_test.VarifyLoginTest" time="11.872"/>
+  <testcase name="testLogin_noNUll" classname="com.jxq.douban.function_test.VarifyLoginTest" time="6.747"/>
+  <testcase name="testLogin_null" classname="com.jxq.douban.function_test.VarifyLoginTest" time="2.122"/>
+  <testcase name="addNotesTest" classname="com.jxq.douban.function_test.VarifyCommentBasicFunTest" time="12.891"/>
+  <testcase name="removeNotesTest" classname="com.jxq.douban.function_test.VarifyCommentBasicFunTest" time="1.198">
+    <failure message="null" type="java.lang.AssertionError">java.lang.AssertionError: null
+	at com.jxq.douban.function_test.VarifyCommentBasicFunTest.removeNotesTest(VarifyCommentBasicFunTest.java:42)
+</failure>
+    <system-out><![CDATA[Alert content:确定要删除此条广播？
+第一条动态的内容：自动化测试中...
+第一条动态的内容应该不是：自动化测试中...
+]]></system-out>
+  </testcase>
+  <testcase name="testcase1" classname="com.jxq.douban.api_test.SearchTagsTest" time="1.115"/>
+  <testcase name="testcase2" classname="com.jxq.douban.api_test.SearchTagsTest" time="0.068"/>
+  <testcase name="testcase1" classname="com.jxq.douban.api_test.SearchMusicTest" time="0.323"/>
+  <testcase name="testcase1" classname="com.jxq.douban.api_test.TranslateTest" time="0.135"/>
+  <testcase name="testlogin" classname="com.jxq.douban.press_test.RepeatedClickLoginBtnTest" time="8.44"/>
+  <testcase name="testRepeatedClick" classname="com.jxq.douban.press_test.RepeatedClickLoginBtnTest" time="0.158"/>
+  <testcase name="testRepeatedClick" classname="com.jxq.douban.press_test.RepeatedClickLoginBtnTest" time="0.058"/>
+  <testcase name="testRepeatedClick" classname="com.jxq.douban.press_test.RepeatedClickLoginBtnTest" time="0.069"/>
+  <testcase name="testRepeatedClick" classname="com.jxq.douban.press_test.RepeatedClickLoginBtnTest" time="0.653">
+    <failure message="no such window&#10;  (Session info: chrome=84.0.4147.105)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UEJILMQ&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: cc12d5249e05296405e70d2fe43cfd69" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+</failure>
+  </testcase>
+  <testcase name="testRepeatedClick" classname="com.jxq.douban.press_test.RepeatedClickLoginBtnTest" time="0.879">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=84.0.4147.105)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UEJILMQ&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: cc12d5249e05296405e70d2fe43cfd69" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+</failure>
+  </testcase>
+  <testcase name="testRepeatedClick" classname="com.jxq.douban.press_test.RepeatedClickLoginBtnTest" time="0.89">
+    <failure message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=84.0.4147.105)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-UEJILMQ&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: cc12d5249e05296405e70d2fe43cfd69" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+</failure>
+  </testcase>
+  <testcase name="testlogin" classname="com.jxq.douban.press_test.RepeatedSumitTest" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.jxq.douban.press_test.RepeatedSumitTest.testlogin(RepeatedSumitTest.java:19)
+</failure>
+  </testcase>
+  <testcase name="testRefreshPage" classname="com.jxq.douban.press_test.RepeatedSumitTest" time="0">
+    <skipped message="Method RepeatedSumitTest.testRefreshPage()[pri:0, instance:com.jxq.douban.press_test.RepeatedSumitTest@50c810a1] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="afterSuite" classname="com.jxq.douban.press_test.RepeatedClickLoginBtnTest" time="3.802">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+</testsuite>

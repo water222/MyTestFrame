@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>TestNG:  搜索分类 接口</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>搜索分类 接口</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Aug 12 09:49:12 CST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (324 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.jxq.douban.api_test.SearchMusicTest.testcase1()'><b>testcase1</b><br>Test class: com.jxq.douban.api_test.SearchMusicTest<br>Test method: 豆瓣音乐。类别:q=travel light start=1 count=1<br/>
+<a href="#Output-1866908011" onClick='toggleBox("Output-1866908011", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1866908011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1866908011">
+RetrofitLog--> --> GET https://api.douban.com/v2/music/search?q=travel%20light&start=1&count=1<br/>
+RetrofitLog--> --> END GET<br/>
+RetrofitLog--> <-- 200 OK https://api.douban.com/v2/music/search?q=travel%20light&start=1&count=1 (303ms)<br/>
+RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT<br/>
+RetrofitLog--> Content-Type: application/json; charset=utf-8<br/>
+RetrofitLog--> Transfer-Encoding: chunked<br/>
+RetrofitLog--> Connection: keep-alive<br/>
+RetrofitLog--> Keep-Alive: timeout=30<br/>
+RetrofitLog--> Vary: Accept-Encoding<br/>
+RetrofitLog--> Vary: Accept-Encoding<br/>
+RetrofitLog--> X-Ratelimit-Remaining2: 97<br/>
+RetrofitLog--> X-Ratelimit-Limit2: 100<br/>
+RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT<br/>
+RetrofitLog--> Pragma: no-cache<br/>
+RetrofitLog--> Cache-Control: must-revalidate, no-cache, private<br/>
+RetrofitLog--> Set-Cookie: bid=raCuHT4oGc4; Expires=Thu, 12-Aug-21 01:49:13 GMT; Domain=.douban.com; Path=/<br/>
+RetrofitLog--> X-DOUBAN-NEWBID: raCuHT4oGc4<br/>
+RetrofitLog--> X-DAE-App: music<br/>
+RetrofitLog--> X-DAE-Instance: api<br/>
+RetrofitLog--> X-DAE-Mountpoint: True<br/>
+RetrofitLog--> Server: dae<br/>
+RetrofitLog--> X-Frame-Options: SAMEORIGIN<br/>
+RetrofitLog--> <br/>
+RetrofitLog--> {"count":1,"start":1,"total":10,"musics":[{"rating":{"max":10,"average":"7.7","numRaters":16,"min":0},"author":[{"name":"Children of Zeus"}],"alt_title":"","image":"https://img9.doubanio.com\/view\/subject\/s\/public\/s29817456.jpg","tags":[{"count":4,"name":"Neo-Soul"},{"count":4,"name":"2018"},{"count":3,"name":"R&B"},{"count":3,"name":"Hip-Hop"},{"count":1,"name":"r&b"},{"count":1,"name":"Rap"},{"count":1,"name":"Hip-Hop\/Rap"},{"count":1,"name":"ChildrenOfZeus"}],"mobile_link":"https:\/\/m.douban.com\/music\/subject\/30272340\/","attrs":{"publisher":["First Word Records"],"singer":["Children of Zeus"],"pubdate":["2018-07-13"],"title":["Travel Light"],"media":["Audio CD"],"tracks":["The Story So Far...","All On You (Feat. [ K S R ] & DRS)","360°","Slow Down","Hoodman2Manhood","Kintsugi","The Heart Beat","Fear of a Flat Planet (Feat. LayFullStop)","Hard Work","Sling Shot Riddim (Feat. Terri Walker)","Respect Mine","Daddy's Car","Vibrations (Divine Signature)","Still Standing","Smoke With Me","Crown","Don't Say a Word","I Can't Wait","No Strings Attached","No Sunshine Tomorrow","Push On","Elevate","Happiness","Rock You Internally","I Want You"],"discs":["2"]},"title":"Travel Light","alt":"https:\/\/music.douban.com\/subject\/30272340\/","id":"30272340"}]}<br/>
+RetrofitLog--> <-- END HTTP (1277-byte body)<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.jxq.douban.api_test.SearchMusicTest@7623e5fb</td></tr>
+</table><p>
+</body>
+</html>

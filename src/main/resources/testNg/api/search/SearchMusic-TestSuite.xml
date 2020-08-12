@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="搜索豆瓣开放接口的电影" verbose="1" preserve-order="true">
+    <parameter name="report.config" value="src/main/resources/config/report/extent-config.xml"/>
+    <parameter name="system.info" value="reporter.config.MySystemInfo"/>
+
+    <test name="搜索分类 接口" preserve-order="true">
+        <classes>
+            <class name="com.jxq.douban.api_test.SearchMusicTest">
+<!--                <methods>-->
+<!--                    <include name="testcase1"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="reporter.Listener.MyExtentTestNgFormatter"/>
+    </listeners>
+</suite>

@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">测试豆瓣登录功能</th></tr>
+<tr><td><a href="#t0">登录 功能</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">21,084</td><td></td><td></td></tr>
+<tr><th colspan="7">有道翻译-测试集合</th></tr>
+<tr class="stripe"><td><a href="#t1">有道翻译 接口</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">136</td><td></td><td></td></tr>
+<tr><th colspan="7">搜索豆瓣开放接口的电影</th></tr>
+<tr><td><a href="#t2">搜索分类 接口</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">324</td><td></td><td></td></tr>
+<tr><th colspan="7">接口测试集合</th></tr>
+<tr><th colspan="7">search_tags-搜索分类-测试集合</th></tr>
+<tr class="stripe"><td><a href="#t3">搜索分类 接口</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">1,184</td><td></td><td></td></tr>
+<tr><th colspan="7">功能测试集合</th></tr>
+<tr><th colspan="7">测试我的豆瓣中的增删查改功能</th></tr>
+<tr><td><a href="#t4">增删查改 功能</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">14,090</td><td></td><td></td></tr>
+<tr><th colspan="7">测试重复性操作系统是否正常工作</th></tr>
+<tr class="stripe"><td><a href="#t5">重复性操作</a></td><td class="num">4</td><td class="num attn">1</td><td class="num attn">4</td><td class="num">9,454</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">12</th><th class="num attn">1</th><th class="num attn">5</th><th class="num">46,272</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">测试豆瓣登录功能</th></tr></tbody><tbody id="t0"><tr><th colspan="4">登录 功能 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.jxq.douban.function_test.VarifyLoginTest</td><td><a href="#m0">testLogin_noNUll</a></td><td rowspan="2">1597196924579</td><td rowspan="2">6747</td></tr><tr class="passedeven"><td><a href="#m1">testLogin_noNUll</a></td></tr><tr class="passedeven"><td><a href="#m2">testLogin_null</a></td><td rowspan="1">1597196931328</td><td rowspan="1">2122</td></tr></tbody>
+<tbody><tr><th colspan="4">有道翻译-测试集合</th></tr></tbody><tbody id="t1"><tr><th colspan="4">有道翻译 接口 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.jxq.douban.api_test.TranslateTest</td><td><a href="#m3">testcase1</a></td><td rowspan="1">1597196953120</td><td rowspan="1">132</td></tr></tbody>
+<tbody><tr><th colspan="4">搜索豆瓣开放接口的电影</th></tr></tbody><tbody id="t2"><tr><th colspan="4">搜索分类 接口 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.jxq.douban.api_test.SearchMusicTest</td><td><a href="#m4">testcase1</a></td><td rowspan="1">1597196952785</td><td rowspan="1">320</td></tr></tbody>
+<tbody><tr><th colspan="4">接口测试集合</th></tr></tbody><tbody><tr><th colspan="4">search_tags-搜索分类-测试集合</th></tr></tbody><tbody id="t3"><tr><th colspan="4">搜索分类 接口 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.jxq.douban.api_test.SearchTagsTest</td><td><a href="#m5">testcase1</a></td><td rowspan="1">1597196951590</td><td rowspan="1">1109</td></tr><tr class="passedeven"><td><a href="#m6">testcase2</a></td><td rowspan="1">1597196952705</td><td rowspan="1">61</td></tr></tbody>
+<tbody><tr><th colspan="4">功能测试集合</th></tr></tbody><tbody><tr><th colspan="4">测试我的豆瓣中的增删查改功能</th></tr></tbody><tbody id="t4"><tr><th colspan="4">增删查改 功能 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.jxq.douban.function_test.VarifyCommentBasicFunTest</td><td><a href="#m7">removeNotesTest</a></td><td rowspan="1">1597196950025</td><td rowspan="1">1193</td></tr><tr><th colspan="4">增删查改 功能 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.jxq.douban.function_test.VarifyCommentBasicFunTest</td><td><a href="#m8">addNotesTest</a></td><td rowspan="1">1597196937133</td><td rowspan="1">12890</td></tr></tbody>
+<tbody><tr><th colspan="4">测试重复性操作系统是否正常工作</th></tr></tbody><tbody id="t5"><tr><th colspan="4">重复性操作 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.jxq.douban.press_test.RepeatedClickLoginBtnTest</td><td><a href="#m9">afterSuite</a></td><td rowspan="1">1597196969950</td><td rowspan="1">1</td></tr><tr><th colspan="4">重复性操作 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.jxq.douban.press_test.RepeatedClickLoginBtnTest</td><td><a href="#m10">testRepeatedClick</a></td><td rowspan="3">1597196965362</td><td rowspan="3">1664</td></tr><tr class="failedeven"><td><a href="#m11">testRepeatedClick</a></td></tr><tr class="failedeven"><td><a href="#m12">testRepeatedClick</a></td></tr><tr class="failedodd"><td rowspan="1">com.jxq.douban.press_test.RepeatedSumitTest</td><td><a href="#m13">testlogin</a></td><td rowspan="1">1597196966149</td><td rowspan="1">1</td></tr><tr><th colspan="4">重复性操作 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.jxq.douban.press_test.RepeatedSumitTest</td><td><a href="#m14">testRefreshPage</a></td><td rowspan="1">1597196966153</td><td rowspan="1">0</td></tr><tr><th colspan="4">重复性操作 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.jxq.douban.press_test.RepeatedClickLoginBtnTest</td><td><a href="#m15">testRepeatedClick</a></td><td rowspan="3">1597196965145</td><td rowspan="3">285</td></tr><tr class="passedeven"><td><a href="#m16">testRepeatedClick</a></td></tr><tr class="passedeven"><td><a href="#m17">testRepeatedClick</a></td></tr><tr class="passedeven"><td><a href="#m18">testlogin</a></td><td rowspan="1">1597196956700</td><td rowspan="1">8440</td></tr></tbody>
+</table>
+<h2>登录 功能</h2><h3 id="m0">com.jxq.douban.function_test.VarifyLoginTest#testLogin_noNUll</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{username=18883992836, passWord=water.222, remark=null}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.jxq.douban.function_test.VarifyLoginTest#testLogin_noNUll</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{username=18883992836, passWord=water, remark=null}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.jxq.douban.function_test.VarifyLoginTest#testLogin_null</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>有道翻译 接口</h2><h3 id="m3">com.jxq.douban.api_test.TranslateTest#testcase1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">RetrofitLog--> --> POST http://fanyi.youdao.com/translate?doctype=json&jsonversion=&type=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=&abtest=<br/>RetrofitLog--> Content-Type: application/x-www-form-urlencoded<br/>RetrofitLog--> Content-Length: 6<br/>RetrofitLog--> <br/>RetrofitLog--> i=good<br/>RetrofitLog--> --> END POST (6-byte body)<br/>RetrofitLog--> <-- 200 OK http://fanyi.youdao.com/translate?doctype=json&jsonversion=&type=&keyfrom=&model=&mid=&imei=&vendor=&screen=&ssid=&network=&abtest= (107ms)<br/>RetrofitLog--> Server: nginx<br/>RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT<br/>RetrofitLog--> Content-Type: application/json;charset=utf-8<br/>RetrofitLog--> Transfer-Encoding: chunked<br/>RetrofitLog--> Connection: keep-alive<br/>RetrofitLog--> Vary: Accept-Encoding<br/>RetrofitLog--> Content-Language: en-US<br/>RetrofitLog--> Set-Cookie: OUTFOX_SEARCH_USER_ID=560963617@183.64.61.35; domain=.youdao.com; expires=Fri, 05-Aug-2050 01:49:13 GMT<br/>RetrofitLog--> <br/>RetrofitLog-->                           {"type":"EN2ZH_CN","errorCode":0,"elapsedTime":1,"translateResult":[[{"src":"good","tgt":"好"}]]}
+<br/>RetrofitLog--> <-- END HTTP (125-byte body)</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>搜索分类 接口</h2><h3 id="m4">com.jxq.douban.api_test.SearchMusicTest#testcase1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">RetrofitLog--> --> GET https://api.douban.com/v2/music/search?q=travel%20light&start=1&count=1<br/>RetrofitLog--> --> END GET<br/>RetrofitLog--> <-- 200 OK https://api.douban.com/v2/music/search?q=travel%20light&start=1&count=1 (303ms)<br/>RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT<br/>RetrofitLog--> Content-Type: application/json; charset=utf-8<br/>RetrofitLog--> Transfer-Encoding: chunked<br/>RetrofitLog--> Connection: keep-alive<br/>RetrofitLog--> Keep-Alive: timeout=30<br/>RetrofitLog--> Vary: Accept-Encoding<br/>RetrofitLog--> Vary: Accept-Encoding<br/>RetrofitLog--> X-Ratelimit-Remaining2: 97<br/>RetrofitLog--> X-Ratelimit-Limit2: 100<br/>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT<br/>RetrofitLog--> Pragma: no-cache<br/>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private<br/>RetrofitLog--> Set-Cookie: bid=raCuHT4oGc4; Expires=Thu, 12-Aug-21 01:49:13 GMT; Domain=.douban.com; Path=/<br/>RetrofitLog--> X-DOUBAN-NEWBID: raCuHT4oGc4<br/>RetrofitLog--> X-DAE-App: music<br/>RetrofitLog--> X-DAE-Instance: api<br/>RetrofitLog--> X-DAE-Mountpoint: True<br/>RetrofitLog--> Server: dae<br/>RetrofitLog--> X-Frame-Options: SAMEORIGIN<br/>RetrofitLog--> <br/>RetrofitLog--> {"count":1,"start":1,"total":10,"musics":[{"rating":{"max":10,"average":"7.7","numRaters":16,"min":0},"author":[{"name":"Children of Zeus"}],"alt_title":"","image":"https://img9.doubanio.com\/view\/subject\/s\/public\/s29817456.jpg","tags":[{"count":4,"name":"Neo-Soul"},{"count":4,"name":"2018"},{"count":3,"name":"R&B"},{"count":3,"name":"Hip-Hop"},{"count":1,"name":"r&b"},{"count":1,"name":"Rap"},{"count":1,"name":"Hip-Hop\/Rap"},{"count":1,"name":"ChildrenOfZeus"}],"mobile_link":"https:\/\/m.douban.com\/music\/subject\/30272340\/","attrs":{"publisher":["First Word Records"],"singer":["Children of Zeus"],"pubdate":["2018-07-13"],"title":["Travel Light"],"media":["Audio CD"],"tracks":["The Story So Far...","All On You (Feat. [ K S R ] & DRS)","360°","Slow Down","Hoodman2Manhood","Kintsugi","The Heart Beat","Fear of a Flat Planet (Feat. LayFullStop)","Hard Work","Sling Shot Riddim (Feat. Terri Walker)","Respect Mine","Daddy's Car","Vibrations (Divine Signature)","Still Standing","Smoke With Me","Crown","Don't Say a Word","I Can't Wait","No Strings Attached","No Sunshine Tomorrow","Push On","Elevate","Happiness","Rock You Internally","I Want You"],"discs":["2"]},"title":"Travel Light","alt":"https:\/\/music.douban.com\/subject\/30272340\/","id":"30272340"}]}<br/>RetrofitLog--> <-- END HTTP (1277-byte body)</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>搜索分类 接口</h2><h3 id="m5">com.jxq.douban.api_test.SearchTagsTest#testcase1</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=movie&source=index<br/>RetrofitLog--> --> END GET<br/>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=movie&source=index (379ms)<br/>RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:12 GMT<br/>RetrofitLog--> Content-Type: application/json; charset=utf-8<br/>RetrofitLog--> Transfer-Encoding: chunked<br/>RetrofitLog--> Connection: keep-alive<br/>RetrofitLog--> Keep-Alive: timeout=30<br/>RetrofitLog--> X-Xss-Protection: 1; mode=block<br/>RetrofitLog--> X-Douban-Mobileapp: 0<br/>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT<br/>RetrofitLog--> Pragma: no-cache<br/>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private<br/>RetrofitLog--> Set-Cookie: bid=-Aw9Lk574Zo; Expires=Thu, 12-Aug-21 01:49:12 GMT; Domain=.douban.com; Path=/<br/>RetrofitLog--> X-DOUBAN-NEWBID: -Aw9Lk574Zo<br/>RetrofitLog--> X-DAE-App: movie<br/>RetrofitLog--> X-DAE-Instance: default<br/>RetrofitLog--> Server: dae<br/>RetrofitLog--> X-Content-Type-Options: nosniff<br/>RetrofitLog--> <br/>RetrofitLog--> {"tags":["热门","最新","豆瓣高分","冷门佳片","华语","欧美","韩国","日本"]}<br/>RetrofitLog--> <-- END HTTP (94-byte body)</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.jxq.douban.api_test.SearchTagsTest#testcase2</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">RetrofitLog--> --> GET https://movie.douban.com/j/search_tags?type=tv&source=index<br/>RetrofitLog--> --> END GET<br/>RetrofitLog--> <-- 200 OK https://movie.douban.com/j/search_tags?type=tv&source=index (45ms)<br/>RetrofitLog--> Date: Wed, 12 Aug 2020 01:49:13 GMT<br/>RetrofitLog--> Content-Type: application/json; charset=utf-8<br/>RetrofitLog--> Transfer-Encoding: chunked<br/>RetrofitLog--> Connection: keep-alive<br/>RetrofitLog--> Keep-Alive: timeout=30<br/>RetrofitLog--> X-Xss-Protection: 1; mode=block<br/>RetrofitLog--> X-Douban-Mobileapp: 0<br/>RetrofitLog--> Expires: Sun, 1 Jan 2006 01:00:00 GMT<br/>RetrofitLog--> Pragma: no-cache<br/>RetrofitLog--> Cache-Control: must-revalidate, no-cache, private<br/>RetrofitLog--> Set-Cookie: bid=YWZWPhSEj8k; Expires=Thu, 12-Aug-21 01:49:13 GMT; Domain=.douban.com; Path=/<br/>RetrofitLog--> X-DOUBAN-NEWBID: YWZWPhSEj8k<br/>RetrofitLog--> X-DAE-App: movie<br/>RetrofitLog--> X-DAE-Instance: default<br/>RetrofitLog--> Server: dae<br/>RetrofitLog--> X-Content-Type-Options: nosniff<br/>RetrofitLog--> <br/>RetrofitLog--> {"tags":["热门","国产剧","综艺","美剧","日剧","韩剧","日本动画","纪录片"]}<br/>RetrofitLog--> <-- END HTTP (94-byte body)</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>增删查改 功能</h2><h3 id="m7">com.jxq.douban.function_test.VarifyCommentBasicFunTest#removeNotesTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at com.jxq.douban.function_test.page.common.Comments.deleteComment(Comments.java:53)
+	at com.jxq.douban.function_test.VarifyCommentBasicFunTest.removeNotesTest(VarifyCommentBasicFunTest.java:42)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1022)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:868)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 44 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.jxq.douban.function_test.VarifyCommentBasicFunTest#addNotesTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>重复性操作</h2><h3 id="m9">com.jxq.douban.press_test.RepeatedClickLoginBtnTest#afterSuite</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.jxq.douban.function_test.page.common.LoginDouban_co.varifyIsLoginSuccess(LoginDouban_co.java:64)
+	at com.jxq.douban.press_test.RepeatedSumitTest.afterSuite(RepeatedSumitTest.java:42)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1022)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:868)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.jxq.douban.press_test.RepeatedClickLoginBtnTest#testRepeatedClick</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-UEJILMQ&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.jxq.douban.function_test.page.common.LoginDouban_co.clickLoginButton(LoginDouban_co.java:43)
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.jxq.douban.press_test.RepeatedClickLoginBtnTest#testRepeatedClick</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window
+  (Session info: chrome=84.0.4147.105)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-UEJILMQ&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.jxq.douban.function_test.page.common.LoginDouban_co.clickLoginButton(LoginDouban_co.java:43)
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.jxq.douban.press_test.RepeatedClickLoginBtnTest#testRepeatedClick</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-UEJILMQ&apos;, ip: &apos;192.168.52.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.jxq.douban.function_test.page.common.LoginDouban_co.clickLoginButton(LoginDouban_co.java:43)
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.jxq.douban.press_test.RepeatedSumitTest#testlogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.jxq.douban.function_test.page.common.LoginDouban_co.goToLoginPage(LoginDouban_co.java:22)
+	at com.jxq.douban.press_test.RepeatedSumitTest.testlogin(RepeatedSumitTest.java:19)
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1022)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:868)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.jxq.douban.press_test.RepeatedSumitTest#testRefreshPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method RepeatedSumitTest.testRefreshPage()[pri:0, instance:com.jxq.douban.press_test.RepeatedSumitTest@50c810a1] depends on not successfully finished methods
+	at org.apache.maven.plugin.surefire.InPluginVMSurefireStarter.runSuitesInProcess(InPluginVMSurefireStarter.java:87)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeProvider(AbstractSurefireMojo.java:1177)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:1022)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:868)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.jvnet.hudson.maven3.launcher.Maven35Launcher.main(Maven35Launcher.java:130)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at jenkins.maven3.agent.Maven35Main.launch(Maven35Main.java:178)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:139)
+	at hudson.maven.Maven3Builder.call(Maven3Builder.java:70)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:211)
+	at hudson.remoting.UserRequest.perform(UserRequest.java:54)
+	at hudson.remoting.Request$2.run(Request.java:369)
+	at hudson.remoting.InterceptingExecutorService$1.call(InterceptingExecutorService.java:72)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.jxq.douban.press_test.RepeatedClickLoginBtnTest#testRepeatedClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.jxq.douban.press_test.RepeatedClickLoginBtnTest#testRepeatedClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.jxq.douban.press_test.RepeatedClickLoginBtnTest#testRepeatedClick</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.jxq.douban.press_test.RepeatedClickLoginBtnTest#testlogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

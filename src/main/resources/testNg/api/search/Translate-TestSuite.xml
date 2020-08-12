@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="有道翻译-测试集合" verbose="1" preserve-order="true">
+    <parameter name="report.config" value="src/main/resources/config/report/extent-config.xml"/>
+    <parameter name="system.info" value="reporter.config.MySystemInfo"/>
+
+    <test name="有道翻译 接口" preserve-order="true">
+        <classes>
+            <class name="com.jxq.douban.api_test.TranslateTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="reporter.Listener.MyExtentTestNgFormatter"/>
+    </listeners>
+</suite>

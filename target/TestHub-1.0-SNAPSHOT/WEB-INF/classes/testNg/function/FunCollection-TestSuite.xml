@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="功能测试集合" verbose="1" preserve-order="true" thread-count="2">
+    <parameter name="report.config" value="src/main/resources/config/report/extent-config.xml"/>
+    <parameter name="system.info" value="reporter.config.MySystemInfo"/>
+
+    <suite-files>
+        <suite-file path="login/Login-TestSuite.xml"/>
+        <suite-file path="basic/BasicFun-TestSuite.xml"/>
+    </suite-files>
+
+    <listeners>
+        <listener class-name="reporter.Listener.MyExtentTestNgFormatter"/>
+    </listeners>
+</suite>

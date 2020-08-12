@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="测试豆瓣登录功能" verbose="1" preserve-order="true" thread-count="3">
+    <parameter name="report.config" value="src/main/resources/config/report/extent-config.xml"/>
+    <parameter name="system.info" value="reporter.config.MySystemInfo"/>
+
+    <test name="登录 功能" preserve-order="true">
+        <classes>
+            <class name="com.jxq.douban.function_test.VarifyLoginTest" ></class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="reporter.Listener.MyExtentTestNgFormatter"/>
+    </listeners>
+</suite>

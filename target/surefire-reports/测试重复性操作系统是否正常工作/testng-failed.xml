@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [测试重复性操作系统是否正常工作]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="system.info" value="reporter.config.MySystemInfo"/>
+  <parameter name="report.config" value="src/main/resources/config/report/extent-config.xml"/>
+  <listeners>
+    <listener class-name="reporter.Listener.MyExtentTestNgFormatter"/>
+  </listeners>
+  <test thread-count="3" name="重复性操作(failed)" verbose="0">
+    <classes>
+      <class name="com.jxq.douban.press_test.RepeatedClickLoginBtnTest">
+        <methods>
+          <include name="testRepeatedClick"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- com.jxq.douban.press_test.RepeatedClickLoginBtnTest -->
+      <class name="com.jxq.douban.press_test.RepeatedSumitTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="testRefreshPage"/>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- com.jxq.douban.press_test.RepeatedSumitTest -->
+    </classes>
+  </test> <!-- 重复性操作(failed) -->
+</suite> <!-- Failed suite [测试重复性操作系统是否正常工作] -->

@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 6, Errors: 0, Skipped: 1, Time elapsed: 64.997 s <<< FAILURE! - in TestSuite
+removeNotesTest(com.jxq.douban.function_test.VarifyCommentBasicFunTest)  Time elapsed: 1.198 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.jxq.douban.function_test.VarifyCommentBasicFunTest.removeNotesTest(VarifyCommentBasicFunTest.java:42)
+
+testRepeatedClick(com.jxq.douban.press_test.RepeatedClickLoginBtnTest)  Time elapsed: 0.653 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+
+testlogin(com.jxq.douban.press_test.RepeatedSumitTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.jxq.douban.press_test.RepeatedSumitTest.testlogin(RepeatedSumitTest.java:19)
+
+testRepeatedClick(com.jxq.douban.press_test.RepeatedClickLoginBtnTest)  Time elapsed: 0.879 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+
+testRepeatedClick(com.jxq.douban.press_test.RepeatedClickLoginBtnTest)  Time elapsed: 0.89 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=84.0.4147.105)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-UEJILMQ', ip: '192.168.52.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\boom\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:4739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: cc12d5249e05296405e70d2fe43cfd69
+	at com.jxq.douban.press_test.RepeatedClickLoginBtnTest.testRepeatedClick(RepeatedClickLoginBtnTest.java:27)
+
+afterSuite(com.jxq.douban.press_test.RepeatedClickLoginBtnTest)  Time elapsed: 3.802 s  <<< FAILURE!
+java.lang.NullPointerException
+
